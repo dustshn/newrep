@@ -1,0 +1,137 @@
+h1{
+    text-align:center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .video{
+    width: 100%; /* Set the width of each photo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styling */
+    margin-bottom: 10px; /* Add space between consecutive images */
+    border: 1px solid #120044; /* Add a border around each photo */
+}
+.video-grid video { 
+    height:70%;
+    width: 90%;
+    margin-top:30px;
+    margin-left:5.5%;
+}
+.banner {
+    background-color: #007a6a;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+  .banner p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Add this CSS for the "About" section */
+.about {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.description h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the menu horizontal */
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last menu item */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 10px;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    color: #007a6a;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 120px;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }

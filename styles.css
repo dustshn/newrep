@@ -1,0 +1,151 @@
+h1{
+  text-align:center;
+}
+.banner {
+  background-color: #007a6a;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.banner p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make the menu horizontal */
+}
+
+nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin for the last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: #007a6a;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 120px;
+  z-index: 1;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  padding: 10px;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;}
+  /* Add this CSS for styling the news dashboard */
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the news cards horizontally */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.news-card {
+  flex: 0 1 calc(33.33% - 20px); /* Three cards in a row with some spacing */
+  margin-bottom: 20px;
+  padding: 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.news-card:hover {
+  transform: scale(1.02); /* Slightly scale up the card on hover */
+}
+
+.news-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.news-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.news-card p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.news-card a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.news-card a:hover {
+  text-decoration: underline;
+}
